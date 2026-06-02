@@ -1,1 +1,114 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: #fdfbf7;
+    color: #4a3728;
+}
+.hero-section {
+    background-color: #2c4a3e;
+    color: #fdfbf7;
+    padding: 20px 80px 80px 80px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.logo {
+    font-size: 24px;
+     font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-links a {
+    color: #fdfbf7;
+    text-decoration: none;
+}
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.hero-text{
+    flex: 1;
+    max-width: 500px;
+}
+.hero-text h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.hero-btn{
+    background-color: #e2b13c;
+    color: #2c4a3e;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+}
+.hero-image-placeholder{
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 2px dashed #fdfbf7;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.main-hero-img{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.info-section {
+    padding: 60px 80px;
+    text-align:center;
+}
+.product-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.info-section h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.grid-container{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.grid-item{
+    flex:1;
+    max-width: 200px;
+    text-align: center;
+}
+.img-box{
+    border: 2px solid #2c4a3e;
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    margin: 0 auto 15px auto;
+    background-color: #ffffff;
+}
+.grid-item p{
+    font-size: 14px;
+    line-height: 1.4;
+}
